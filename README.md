@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Shivam Raj</h1>
+<h1 align="center">Hi, I'm Shivam Raj</h1>
 <h3 align="center">A passionate developer building beautiful and scalable web applications.</h3>
 
 <p align="center">
@@ -9,23 +9,17 @@
 
 ---
 
-## 📊 GitHub Profile Stats
+## GitHub Profile Stats
 
 <div align="center">
   <br />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ShivamRaj9188&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="Shivam's GitHub stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShivamRaj9188&layout=compact&theme=tokyonight" alt="Top Languages" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ShivamRaj9188&theme=tokyonight" alt="GitHub Streak" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ShivamRaj9188&theme=tokyonight" alt="Shivam's GitHub stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ShivamRaj9188&theme=tokyonight" alt="Top Languages" />
 </div>
 
 ---
 
-## 🛠️ Languages & Tools
+## Languages & Tools
 
 <p align="center">
   <a href="https://skillicons.dev">
