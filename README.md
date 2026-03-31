@@ -51,11 +51,6 @@
   <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ShivamRaj9188&layout=compact&hide_border=true&bg_color=0d1117&title_color=ff003c&text_color=c9d1d9" height="170" alt="Languages" />
 </div>
 
-<br>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=ShivamRaj9188&hide_border=true&background=0d1117&stroke=1a1a2e&ring=ff003c&fire=ff003c&currStreakLabel=ff003c&sideLabels=ff003c&currStreakNum=ffffff&sideNums=c9d1d9&dates=555555" alt="Streak" />
-</div>
 
 <div align="center">
   <img src="./assets/stars-divider.svg" width="100%" alt="divider" />
