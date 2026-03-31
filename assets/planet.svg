@@ -1,82 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
   <style>
-    .planet-body { fill: #ff003c; }
-    .planet-shadow { fill: #8a0020; }
-    .ring { fill: none; stroke: #ff003c; stroke-width: 1.5; opacity: 0.4; stroke-dasharray: 4 4; }
-    .ring-solid { fill: none; stroke: #ff003c; stroke-width: 2; opacity: 0.5; }
-    
-    .orbit1 { animation: spin 20s linear infinite; transform-origin: 400px 250px; }
-    .orbit2 { animation: spin-reverse 30s linear infinite; transform-origin: 400px 250px; }
-    .orbit3 { animation: spin 45s linear infinite; transform-origin: 400px 250px; }
+    .orbit1 { animation: spin 8s linear infinite; transform-origin: 100px 100px; }
+    .orbit2 { animation: spin-reverse 12s linear infinite; transform-origin: 100px 100px; }
     
     @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
     @keyframes spin-reverse { from { transform: rotate(0deg); } to { transform: rotate(-360deg); } }
     
     .glow { fill: #ff003c; opacity: 0.15; }
-    .glow-core { fill: #ff003c; opacity: 0.3; }
-    
-    /* Stars */
-    .star { fill: #ffffff; }
-    .s-red { fill: #ff003c; }
-    .t1 { animation: twinkle 3s infinite ease-in-out; }
-    .t2 { animation: twinkle 4s infinite ease-in-out 1s; }
-    .t3 { animation: twinkle 2.5s infinite ease-in-out 0.5s; }
-    @keyframes twinkle { 0%, 100% { opacity: 0.1; } 50% { opacity: 0.9; } }
   </style>
 
-  <!-- Ambient background stars -->
-  <circle class="star t1" cx="120" cy="100" r="1.5" />
-  <circle class="s-red t2" cx="280" cy="80" r="2.5" />
-  <circle class="star t3" cx="680" cy="150" r="1.2" />
-  <circle class="star t1" cx="750" cy="80" r="2" />
-  <circle class="s-red t2" cx="180" cy="400" r="2" />
-  <circle class="star t3" cx="80" cy="250" r="1.5" />
-  <circle class="star t1" cx="600" cy="450" r="1.5" />
-  <circle class="s-red t2" cx="720" cy="350" r="2.5" />
-  <circle class="star t3" cx="320" cy="420" r="2" />
+  <!-- Ambient Glow -->
+  <circle class="glow" cx="100" cy="100" r="50" />
+  <circle class="glow" cx="100" cy="100" r="35" opacity="0.3" />
 
-  <!-- Main Glows -->
-  <circle class="glow" cx="400" cy="250" r="220" />
-  <circle class="glow-core" cx="400" cy="250" r="120" />
+  <!-- Main Planet Body -->
+  <circle cx="100" cy="100" r="22" fill="#8a0020" />
+  
+  <!-- Planet Crescent Highlight (Simulates 3D Sphere left-lit) -->
+  <path d="M 100 78 A 22 22 0 0 0 78 100 A 22 22 0 0 0 100 122 A 16 22 0 0 1 100 78 Z" fill="#ff003c" />
+  
+  <!-- Planet Shadow (Right side) -->
+  <path d="M 100 78 A 22 22 0 0 1 122 100 A 22 22 0 0 1 100 122 A 28 22 0 0 0 100 78 Z" fill="#2a000a" opacity="0.7" />
 
-  <!-- Main Planet -->
-  <circle class="planet-body" cx="400" cy="250" r="70" />
-  <clipPath id="mainClip"><circle cx="400" cy="250" r="70" /></clipPath>
-  <circle cx="415" cy="235" r="70" fill="#8a0020" clip-path="url(#mainClip)" />
-  <ellipse cx="400" cy="250" rx="80" ry="12" fill="none" stroke="#ff003c" stroke-width="3" opacity="0.6" transform="rotate(-15 400 250)" />
-  <ellipse cx="400" cy="250" rx="90" ry="20" fill="none" stroke="#ff003c" stroke-width="1" opacity="0.3" transform="rotate(-15 400 250)" />
-
-  <!-- Orbit 1 (Inner) -->
+  <!-- Inner Orbit (Tilted) -->
   <g class="orbit1">
-    <ellipse class="ring-solid" cx="400" cy="250" rx="160" ry="40" transform="rotate(20 400 250)" />
-    <g transform="rotate(20 400 250)">
-      <circle cx="560" cy="250" r="8" fill="#ff003c" />
-      <circle cx="240" cy="250" r="5" fill="#8a0020" />
+    <ellipse cx="100" cy="100" rx="45" ry="12" fill="none" stroke="#ff003c" stroke-width="1.2" opacity="0.5" transform="rotate(-15 100 100)" />
+    <!-- Inner Moon -->
+    <g transform="rotate(-15 100 100)">
+      <circle cx="145" cy="100" r="3.5" fill="#ff003c" />
+      <circle cx="146" cy="99" r="1.5" fill="#ffffff" opacity="0.7" />
     </g>
   </g>
 
-  <!-- Orbit 2 (Middle) -->
+  <!-- Outer Orbit (Tilted other way) -->
   <g class="orbit2">
-    <ellipse class="ring" cx="400" cy="250" rx="250" ry="70" transform="rotate(-35 400 250)" />
-    <g transform="rotate(-35 400 250)">
-      <circle cx="650" cy="250" r="14" fill="#ff003c" />
-      <clipPath id="moonClip2"><circle cx="650" cy="250" r="14" /></clipPath>
-      <circle cx="653" cy="247" r="14" fill="#8a0020" clip-path="url(#moonClip2)" />
-      
-      <!-- Tiny moon of a moon -->
-      <circle cx="675" cy="250" r="3" fill="#ffffff" />
-    </g>
-  </g>
-
-  <!-- Orbit 3 (Outer) -->
-  <g class="orbit3">
-    <ellipse class="ring-solid" cx="400" cy="250" rx="340" ry="100" transform="rotate(45 400 250)" />
-    <g transform="rotate(45 400 250)">
-      <circle cx="60" cy="250" r="20" fill="#ff003c" opacity="0.9" />
-      <clipPath id="moonClip3"><circle cx="60" cy="250" r="20" /></clipPath>
-      <circle cx="65" cy="245" r="20" fill="#8a0020" clip-path="url(#moonClip3)" />
-      
-      <circle cx="740" cy="250" r="10" fill="#5a0015" />
+    <ellipse cx="100" cy="100" rx="65" ry="16" fill="none" stroke="#ff003c" stroke-width="1" opacity="0.3" transform="rotate(25 100 100)" stroke-dasharray="2 3"/>
+    <!-- Outer Moon -->
+    <g transform="rotate(25 100 100)">
+      <circle cx="35" cy="100" r="5" fill="#8a0020" />
+      <!-- Moon crescent -->
+      <path d="M 35 95 A 5 5 0 0 0 30 100 A 5 5 0 0 0 35 105 A 3.5 5 0 0 1 35 95 Z" fill="#ff003c" />
     </g>
   </g>
 

@@ -71,7 +71,7 @@
 <br>
 
 <div align="center">
-  <img src="./assets/planet.svg" width="100%" alt="planet" />
+  <img src="./assets/planet.svg" width="150" alt="planet" />
 </div>
 
 <br>
