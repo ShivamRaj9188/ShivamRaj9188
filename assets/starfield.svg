@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="120" viewBox="0 0 800 120">
+  <style>
+    .s { fill: #ff003c; }
+    .sd { fill: #5a0015; }
+    .sw { fill: #ffffff; }
+    .t1 { animation: t 3s ease-in-out infinite; }
+    .t2 { animation: t 2.4s ease-in-out infinite 0.7s; }
+    .t3 { animation: t 4s ease-in-out infinite 1.2s; }
+    .t4 { animation: t 2.8s ease-in-out infinite 0.3s; }
+    .t5 { animation: t 3.6s ease-in-out infinite 1.8s; }
+    .t6 { animation: t 2s ease-in-out infinite 0.5s; }
+    @keyframes t { 0%,100% { opacity:0.15; } 50% { opacity:1; } }
+    .shoot { animation: shoot 6s linear infinite; opacity: 0; }
+    .shoot2 { animation: shoot 8s linear infinite 3s; opacity: 0; }
+    @keyframes shoot {
+      0% { transform: translate(0,0); opacity: 0; }
+      5% { opacity: 1; }
+      15% { transform: translate(-120px, 40px); opacity: 0; }
+      100% { opacity: 0; }
+    }
+  </style>
+  <rect width="800" height="120" fill="#0a0a0a" rx="6" />
+  <!-- star field -->
+  <circle class="sw t1" cx="45" cy="20" r="0.8" />
+  <circle class="s t2" cx="95" cy="80" r="1.2" />
+  <circle class="sd t3" cx="140" cy="45" r="0.9" />
+  <circle class="sw t4" cx="200" cy="15" r="0.6" />
+  <circle class="s t5" cx="250" cy="95" r="1.4" />
+  <circle class="sd t1" cx="300" cy="35" r="0.7" />
+  <circle class="sw t6" cx="350" cy="70" r="1" />
+  <circle class="s t2" cx="400" cy="25" r="1.1" />
+  <circle class="sd t3" cx="440" cy="100" r="0.8" />
+  <circle class="sw t4" cx="490" cy="55" r="0.6" />
+  <circle class="s t5" cx="530" cy="15" r="1.3" />
+  <circle class="sd t6" cx="580" cy="85" r="0.9" />
+  <circle class="sw t1" cx="620" cy="40" r="0.7" />
+  <circle class="s t2" cx="670" cy="105" r="1" />
+  <circle class="sd t3" cx="710" cy="30" r="1.2" />
+  <circle class="sw t4" cx="760" cy="65" r="0.8" />
+  <circle class="s t5" cx="160" cy="110" r="0.6" />
+  <circle class="sd t6" cx="500" cy="10" r="0.9" />
+  <circle class="sw t1" cx="650" cy="90" r="1.1" />
+  <circle class="s t3" cx="75" cy="55" r="0.7" />
+  <!-- shooting stars -->
+  <line class="shoot" x1="600" y1="10" x2="480" y2="50" stroke="#ff003c" stroke-width="1.5" stroke-linecap="round" />
+  <line class="shoot2" x1="350" y1="5" x2="230" y2="45" stroke="#ff003c" stroke-width="1" stroke-linecap="round" />
+  <!-- subtle red planet -->
+  <circle cx="720" cy="60" r="12" fill="#1a0505" />
+  <circle cx="720" cy="60" r="12" fill="#2a0a0a" />
+  <circle cx="723" cy="57" r="10" fill="#1a0505" />
+  <ellipse cx="720" cy="60" rx="18" ry="3" fill="none" stroke="#ff003c" stroke-width="0.6" opacity="0.3" transform="rotate(-15 720 60)" />
+  <!-- small distant planet -->
+  <circle cx="120" cy="30" r="4" fill="#3b0a0a" />
+  <circle cx="121" cy="29" r="3" fill="#2a0505" />
+</svg>

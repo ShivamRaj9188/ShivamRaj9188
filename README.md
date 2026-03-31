@@ -22,13 +22,15 @@
 &nbsp;&nbsp;
 <a href="mailto:doers_markka.0b@icloud.com"><img src="https://img.shields.io/badge/Email-Contact-ff003c?style=flat&labelColor=0d1117&logo=gmail&logoColor=white" alt="Email"></a>
 
+<br><br>
+
+<img src="./assets/starfield.svg" width="100%" alt="starfield" />
+
 </div>
 
-<br>
+<!-- ✦ TECH STACK ✦ -->
 
-<!-- ✦ SKILLS ✦ -->
-
-<h3 align="center">🛸 &nbsp; Tech Stack</h3>
+<h3 align="center">Tech Stack</h3>
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -36,11 +38,13 @@
   </a>
 </p>
 
-<br>
+<div align="center">
+  <img src="./assets/stars-divider.svg" width="100%" alt="divider" />
+</div>
 
 <!-- ✦ STATS ✦ -->
 
-<h3 align="center">📡 &nbsp; Mission Stats</h3>
+<h3 align="center">GitHub Stats</h3>
 
 <div align="center">
   <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=ShivamRaj9188&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=ff003c&text_color=c9d1d9&icon_color=ff003c&ring_color=ff003c" height="170" alt="Stats" />
@@ -53,11 +57,13 @@
   <img src="https://streak-stats.demolab.com/?user=ShivamRaj9188&hide_border=true&background=0d1117&stroke=1a1a2e&ring=ff003c&fire=ff003c&currStreakLabel=ff003c&sideLabels=ff003c&currStreakNum=ffffff&sideNums=c9d1d9&dates=555555" alt="Streak" />
 </div>
 
-<br>
+<div align="center">
+  <img src="./assets/stars-divider.svg" width="100%" alt="divider" />
+</div>
 
 <!-- ✦ CONTRIBUTION GRAPH ✦ -->
 
-<h3 align="center">🌌 &nbsp; Activity Graph</h3>
+<h3 align="center">Activity Graph</h3>
 
 <div align="center">
   <picture>
@@ -65,6 +71,12 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ShivamRaj9188/ShivamRaj9188/output/github-contribution-grid-snake.svg?v=2">
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ShivamRaj9188/ShivamRaj9188/output/github-contribution-grid-snake.svg?v=2" />
   </picture>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="./assets/planet.svg" width="40" alt="planet" />
 </div>
 
 <br>
