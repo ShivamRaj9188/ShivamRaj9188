@@ -11,7 +11,7 @@
 <br>
 
 <a href="https://github.com/ShivamRaj9188">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&pause=1000&color=FF003C&center=true&vCenter=true&width=400&lines=Full-Stack+Developer;Software+Engineer;Open+Source+Contributor" alt="Roles" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&pause=1000&color=FF003C&center=true&vCenter=true&width=450&lines=Full-Stack+Developer;Software+Engineer;AI+Enthusiast;Open+Source+Contributor" alt="Roles" />
 </a>
 
 <br><br>
