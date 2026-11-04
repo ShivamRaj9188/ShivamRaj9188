@@ -20,7 +20,7 @@
 &nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/shivam-raj-9s/"><img src="https://img.shields.io/badge/LinkedIn-Connect-ff003c?style=flat&labelColor=0d1117&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 &nbsp;&nbsp;
-<a href="mailto:doers_markka.0b@icloud.com"><img src="https://img.shields.io/badge/Email-Contact-ff003c?style=flat&labelColor=0d1117&logo=gmail&logoColor=white" alt="Email"></a>
+<a href="mailto:shivamraj918815@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-ff003c?style=flat&labelColor=0d1117&logo=gmail&logoColor=white" alt="Email"></a>
 
 <br><br>
 
