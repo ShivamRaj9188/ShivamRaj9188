@@ -11,7 +11,7 @@
 <br>
 
 <a href="https://github.com/ShivamRaj9188">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&pause=1000&color=FF003C&center=true&vCenter=true&width=450&lines=Full-Stack+Developer;Software+Engineer;AI+Enthusiast;Open+Source+Contributor" alt="Roles" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&pause=1000&color=FF003C&center=true&vCenter=true&width=450&lines=AI+Lead+at+Aispire;Full-Stack+Developer;Software+Engineer;Open+Source+Contributor" alt="Roles" />
 </a>
 
 <br><br>
@@ -19,6 +19,8 @@
 <a href="https://shivam-dev-9.vercel.app"><img src="https://img.shields.io/badge/Portfolio-shivam--dev-ff003c?style=flat&labelColor=0d1117&logo=vercel&logoColor=white" alt="Portfolio"></a>
 &nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/shivam-raj-9s/"><img src="https://img.shields.io/badge/LinkedIn-Connect-ff003c?style=flat&labelColor=0d1117&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+&nbsp;&nbsp;
+<a href="https://leetcode.com/u/ShivamRaj9"><img src="https://img.shields.io/badge/LeetCode-500%2B_Solved-ff003c?style=flat&labelColor=0d1117&logo=leetcode&logoColor=white" alt="LeetCode"></a>
 &nbsp;&nbsp;
 <a href="mailto:shivamraj918815@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-ff003c?style=flat&labelColor=0d1117&logo=gmail&logoColor=white" alt="Email"></a>
 
