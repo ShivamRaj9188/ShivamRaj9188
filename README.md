@@ -49,8 +49,8 @@
 <h3 align="center">GitHub Stats</h3>
 
 <div align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=ShivamRaj9188&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=ff003c&text_color=c9d1d9&icon_color=ff003c&ring_color=ff003c" height="170" alt="Stats" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=ShivamRaj9188&layout=compact&hide_border=true&bg_color=0d1117&title_color=ff003c&text_color=c9d1d9" height="170" alt="Languages" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=ShivamRaj9188&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=ff003c&text_color=c9d1d9&icon_color=ff003c&ring_color=ff003c" height="170" alt="Stats" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ShivamRaj9188&layout=compact&hide_border=true&bg_color=0d1117&title_color=ff003c&text_color=c9d1d9" height="170" alt="Languages" />
 </div>
 
 
