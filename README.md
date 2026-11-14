@@ -51,6 +51,8 @@
 <div align="center">
   <img src="https://github-stats-extended.vercel.app/api?username=ShivamRaj9188&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=ff003c&text_color=c9d1d9&icon_color=ff003c&ring_color=ff003c" height="170" alt="Stats" />
   <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=ShivamRaj9188&layout=compact&hide_border=true&bg_color=0d1117&title_color=ff003c&text_color=c9d1d9" height="170" alt="Languages" />
+  <br />
+  <img src="https://streak-stats.demolab.com?user=ShivamRaj9188&hide_border=true&background=0d1117&ring=ff003c&fire=ff003c&currStreakLabel=ff003c&sideLabels=c9d1d9&sideNums=c9d1d9&currStreakNum=c9d1d9&dates=8b949e&stroke=30363d" height="170" alt="Streak and total contributions (incl. private)" />
 </div>
 
 
